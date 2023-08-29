@@ -107,8 +107,10 @@
 			type: 'POST',
 			dataType: 'json',
 			data: {
-				weather: $('#weather').val(),
-				windSpeed: $('#windSpeed').val()
+				north1: $('#north1').val(),
+				south1: $('#south1').val(),
+				east1: $('#east1').val(),
+				west1: $('#west1').val(),
 			},
 			success: function(result) {
 
